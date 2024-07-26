@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+header nav{
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    gap: 16px;
+    padding: 16px;
+}
+main aside {
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: solid 1.5px #000;
+    border-radius: 5px;
+}
+.usuario {
+    text-align: center;
+    padding-top: 18px;
+}
+.usuario img{
+    height: 100px;
+    width: 100px;
+}
+main section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card{
+    background-color: #F4F4F4;
+    border: solid 1.5px #000;
+    border-radius: 5px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.cardCaja1{
+    flex: 3;
+    gap: 16px;
+}
+.cardCaja1 p{
+    color: #666;
+}
+.cardCaja2{
+    flex: 1;
+    gap: 16px;
+}
+.cardCaja2 span{
+    color: #666;
+}
+.btnLike{
+    padding: 4px 20px;
+    background-color: #FFD601;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
